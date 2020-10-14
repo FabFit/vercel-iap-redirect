@@ -1,0 +1,22 @@
+{
+  "name": "@fabfit/vercel-iap-redirect",
+  "version": "1.0.0",
+  "description": "Cause Apple only support single domains",
+  "main": "index.js",
+  "scripts": {
+    "dev": "now dev"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^14.11.8",
+    "@types/pino": "^6.3.2",
+    "@vercel/node": "^1.8.4",
+    "typescript": "^4.0.3"
+  },
+  "dependencies": {
+    "axios": "^0.20.0",
+    "env-var": "^6.3.0",
+    "pino": "^6.7.0"
+  }
+}
