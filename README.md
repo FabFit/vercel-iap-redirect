@@ -9,7 +9,6 @@ This project is a single Lambda that will redirect to a given URL depending on w
 This project has been configured to run on Vercel all you need to do is press the button below.
 
 <div style="text-align: center">
-<br />
 
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https%3A%2F%2Fgithub.com%2FFabFit%2Fvercel-iap-redirect&env=PRODUCTION_REDIRECT,DEVELOPMENT_REDIRECT)
 
@@ -19,3 +18,5 @@ Pressing the above button will also create two environment variables, if you'd p
 
 - `DEVELOPMENT_REDIRECT`: your development API endpoint
 - `PRODUCTION_REDIRECT`: your production API endpoint
+
+Once deployed update your webhook URL in App Store Connect to `<domain>/api/redirect`.
