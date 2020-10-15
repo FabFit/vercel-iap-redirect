@@ -2,11 +2,11 @@
 
 Unfortunately Apple only allow developers to add a single domain for their In App Payments (IAP) web hooks, cause you know, who needs a development environment?
 
-This project is a single Lambda that will redirect to a given URL depending on whether or not the webhook came from Apple's production environment or not.
+This project is a single Lambda that will redirect to a given URL depending on whether or not the webhook came from Apple's production environment. It exposes a single endpoint `/api/redirect` that can redirect to two seperate environments.
 
 ## Getting started
 
-This project has been configured to run on Vercel all you need to do is press the button below.
+This project has been configured to run on Vercel all you need to do is press the button below to clone this repository and deploy under your own Vercel account.
 
 <div style="text-align: center">
 
